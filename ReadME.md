@@ -28,39 +28,39 @@ Follow these steps to set up and run the project locally.
 
 1. Clone the repository:
 
-   ```bash
+---
    git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+---
+cd your-repo-name
 Install dependencies:
 
-bash
-Copy
-Edit
+----
 npm install
+----
 Create a .env.local file in the root of your project and add the following variables:
 
-env
-Copy
-Edit
+-----
 GOOGLE_CLIENT_ID=your-google-client-id
 GOOGLE_CLIENT_SECRET=your-google-client-secret
 NEXTAUTH_SECRET=your-random-secret
 NEXTAUTH_URL=http://localhost:3000
+---
 Replace your-google-client-id and your-google-client-secret with the credentials from your GCP project.
-Use a secure random string for NEXTAUTH_SECRET (you can generate one using openssl rand -base64 32).
+
+Use a secure random string for NEXTAUTH_SECRET 
 Set up your Google Cloud project:
 
 Go to the Google Cloud Console.
-Create or select a project.
-Enable the "OAuth Consent Screen" under APIs & Services.
-Configure credentials and get your Client ID and Client Secret.
-Running the App
-Start the development server:
+?Create or select a project.
 
-bash
-Copy
-Edit
+#Enable the "OAuth Consent Screen" under APIs & Services.
+#Configure credentials and get your Client ID and Client Secret.
+#Running the App
+#Start the development server:
+
+----
 npm run dev
+---
 Open your browser and navigate to http://localhost:3000.
 
 Project Structure
