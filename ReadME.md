@@ -73,3 +73,11 @@ Open the app in your browser.
 Click the "Sign in with Google" button.
 Authenticate with your Google account.
 Access protected routes after successful login.
+
+
+
+
+
+
+This is a project on integrating user authentication through gmail to your website using oauth , it by  using key and credentials provided by google cloude provider GCP to make a logic that verfies user gmail.
+and i used next js to build a simple landing page for the user authentication. the authetication is sever side authentication.
